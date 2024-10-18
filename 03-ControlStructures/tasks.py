@@ -315,6 +315,158 @@
 
 
 
+#------------------------------------------ Section 4
+
+
+
+# for i in range(6):
+#     print('Practice makes perfect!')
+
+
+
+
+
+
+# ###
+# # Prints the name of university where you are studying
+# # with an extra space between characters (add a space between
+# # each character)
+# #
+# university = 'Krakow University of Economics'
+# university_expanded = ''
+
+# for char in university:
+#     university_expanded = university_expanded + char + ' '
+
+# print(university)
+# print(university_expanded)
+
+
+
+
+
+# ###
+# # Encrypts text using Caesar Code, shifting each letter
+# # in the alphabet right one position
+# #
+# plain_text = 'The early bird catches the worm'
+# encrypted_text = ''
+
+# for char in plain_text:
+#     if char != ' ': 
+#         ordchar = ord(char)
+#         ordchar += 1
+#         newchar = chr(ordchar)
+#     else:
+#         newchar = char  
+#     encrypted_text += newchar
+
+# print(plain_text)
+# print(encrypted_text)
+
+
+
+
+
+
+
+# ###
+# # Calculates the sum of even numbers in the range <1,10>
+# #
+# sum = 0
+
+# for i in range(1,11):
+#     if not i%2 ==0:
+#         continue
+#     sum += i
+
+# print(f'Sum of even numbers in the range <1,10> is {sum}')
+
+
+
+
+
+
+
+# ###
+# # Calculates values for the following fractions: 1/2, 1/3, ..., 1/10
+# #
+# for i in range(2, 11):
+#     print(f'1/{i} = {1/i}')
+
+
+
+
+
+
+# ###
+# # A simple number guessing game
+# #
+# import random
+
+# # Randomly chosen number to be guessed from 1 to 100
+# number_to_guess = random.randint(1, 100)
+# user_guess = 0
+
+# print("Guess the number between 1 and 100!")
+
+# while user_guess != number_to_guess:
+#     user_guess = int(input("Enter your guess: "))
+
+#     if user_guess < number_to_guess:
+#         print("Too low! Try again.")
+#     elif user_guess > number_to_guess:
+#         print("Too high! Try again.")
+#     else:
+#         print("Congratulations! You guessed the correct number.")
+
+
+
+
+
+
+# ###
+# # Sums numbers entered by user
+# #
+# total_sum = 0
+# count = 0
+# ariphmetic_mean = 0
+
+# while True:
+#     number = int(input("Enter a number (0 to stop): "))
+    
+#     if number == 0:
+#         break  # Exit the loop when 0 is entered
+#     total_sum += number
+#     count += 1
+
+# ariphmetic_mean = total_sum / count
+# print(f"The total sum of the numbers is: {total_sum}")
+# print(f"The ariphmetic mean of the numbers is: {int(ariphmetic_mean)}")
+
+
+
+
+
+
+
+# ###
+# # Calculates the sum of even numbers from 1 to a given number N
+# #
+# N = 10
+# sum_even = 0
+# i = 1 
+
+
+# while i <= N:
+#     if i % 2 == 0:  
+#         sum_even += i  
+#     i += 1
+
+# print(f"The sum of even numbers from 1 to {N} is: {sum_even}")
+
+
+
 
 
 
