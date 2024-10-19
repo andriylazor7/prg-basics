@@ -380,6 +380,174 @@
 
 
 
+# for i in range(1,31):
+#   if i % 3 == 0:
+#     print('Three')   
+#   elif i % 5 == 0:
+#     print('Five')
+#   elif i % 3 == 0 and i % 5 == 0:
+#     print('Bingo')
+#   else:
+#     print(i)
+
+
+
+
+
+
+
+# number = int(input('Enter number: '))
+
+# for i in range(1,11):
+#   print(f'{number} x {i} = {number * i}')
+
+
+
+
+
+# for i in range(1,6):
+#   print('*' * i)
+# for i in range(4, 0, -1):
+#   print('*' * i)
+
+
+
+
+
+# for i in range(1,10):
+#   print(str(i) * i)
+
+
+
+
+
+
+
+
+
+# correct_PIN = '0805'
+# attempts = 3
+
+# while attempts > 0:
+#   pin = input('Enter the PIN code: ')
+#   if pin != correct_PIN:
+#     attempts -= 1
+#     if attempts > 0:
+#       print('Incorrect...')
+#     else:
+#       print('Sorry, your payment card has been blocked.')
+#   else:
+#     print('Correct PIN. Access granted.')
+#     break
+
+
+
+
+
+
+
+
+
+
+# for i in range(6,-1,-3):
+#     for j in range(1,4):
+#         print(f'{i+j}',end=' ')
+#     print()
+    
+# print()
+
+# i = 6
+# while i >= 0:
+#   j = 1
+#   while j < 4:
+#     print(f'{i+j}',end=' ')
+#     j += 1
+#   print()
+#   i -= 3
+    
+
+
+
+
+
+
+
+
+# n_terms = 20
+# a = 0
+# b = 1
+
+
+# for i in range(n_terms):
+#  print(a, end = ' ')
+#  a,b = b, a+b
+
+
+
+
+
+
+# N = int(input('Enter a value of N: '))
+
+# for i in range(2, N + 1): 
+#     is_prime = True  
+#     for j in range(2, i):  
+#         if i % j == 0:  
+#             is_prime = False  
+#             break 
+#     if is_prime:  
+#         print(i)
+
+
+
+
+
+
+
+
+# for i in range(7):
+#   for j in range(1,49,7):
+#     print(j + i, end= ' ')
+#   print()
+    
+
+
+
+# import random
+
+# for i in range (21):
+#   print(random.randint(5,10), end = ' ')
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
