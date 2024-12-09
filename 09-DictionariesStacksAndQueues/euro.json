@@ -1,0 +1,67 @@
+{
+  "table": "C",
+  "currency": "euro",
+  "code": "EUR",
+  "rates": [
+      {
+          "no": "210/C/NBP/2024",
+          "effectiveDate": "2024-12-01",
+          "bid": 4.5000,
+          "ask": 4.6000
+      },
+      {
+          "no": "209/C/NBP/2024",
+          "effectiveDate": "2024-11-30",
+          "bid": 4.4800,
+          "ask": 4.5800
+      },
+      {
+          "no": "208/C/NBP/2024",
+          "effectiveDate": "2024-11-29",
+          "bid": 4.4900,
+          "ask": 4.5900
+      },
+      {
+          "no": "207/C/NBP/2024",
+          "effectiveDate": "2024-11-28",
+          "bid": 4.4700,
+          "ask": 4.5700
+      },
+      {
+          "no": "206/C/NBP/2024",
+          "effectiveDate": "2024-11-27",
+          "bid": 4.4600,
+          "ask": 4.5600
+      },
+      {
+          "no": "205/C/NBP/2024",
+          "effectiveDate": "2024-11-26",
+          "bid": 4.4500,
+          "ask": 4.5500
+      },
+      {
+          "no": "204/C/NBP/2024",
+          "effectiveDate": "2024-11-25",
+          "bid": 4.4400,
+          "ask": 4.5400
+      },
+      {
+          "no": "203/C/NBP/2024",
+          "effectiveDate": "2024-11-24",
+          "bid": 4.4300,
+          "ask": 4.5300
+      },
+      {
+          "no": "202/C/NBP/2024",
+          "effectiveDate": "2024-11-23",
+          "bid": 4.4200,
+          "ask": 4.5200
+      },
+      {
+          "no": "201/C/NBP/2024",
+          "effectiveDate": "2024-11-22",
+          "bid": 4.4100,
+          "ask": 4.5100
+      }
+  ]
+}
